@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;      
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 500px;
+    margin: 5px
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(download.jpg);
+}
+h1{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    margin: auto;
+    color: #ff8d09;
+    height: 150px;
+}   
+
+ul{
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background: crimson;
+    transition: 1s;
+    display: inline-block;
+}
+li{
+    width: 100px;
+    display: inline-block;
+    box-shadow: 2px 2px black;
+    background-color: crimson;
+    font-family: sans-serif;
+}
+li a{
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+}
+li:hover{
+    background-color: darkorange;
+}
+li:hover a{
+    color: white;
+}
+nav{
+    width: 100%;
+    background-color: darkorange;
+}
+ul:hover{
+    width: 85%;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+div{
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin:10px;
+    border:solid 1px #373737;
+    display:inline-block;
+
+}
+.small{width:200px;
+    
+}
+.big{
+
+}
+footer{
+    background-color: #373737;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    
+}
+.foot {
+    width:28%;
+    height:130px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    padding: 5px;
+    color: antiquewhite;
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.contact{
+    text-align: left;
+}
+.copy{
+    padding-top: 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
